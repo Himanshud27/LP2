@@ -17,7 +17,7 @@ def dfs(visited, graph, node):
         for neighbour in graph[node]:
             dfs(visited, graph, neighbour)
 
-# BFS function
+
 def bfs(visited, graph, node, queue):
     visited.add(node)
     queue.append(node)
