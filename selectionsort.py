@@ -6,6 +6,7 @@ def selectionsort(arr):
             if arr[j] < arr[min]:
                 min = j
         arr[i], arr[min] = arr[min], arr[i]
+        print (f"Pass {i }  {arr}")
     return arr
 
 print(selectionsort([3, 4, 2, 1]))
