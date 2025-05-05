@@ -6,6 +6,7 @@ def main():
 
     if solutions:
         print(f"\nTotal solutions found: {len(solutions)}\n")
+        print(solutions)
         for index, sol in enumerate(solutions, start=1):
             print(f"Solution {index}:")
             for row in sol:
